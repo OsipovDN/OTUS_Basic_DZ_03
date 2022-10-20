@@ -2,9 +2,8 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
-#include <fstream>
-#include "foo.h"
- 
+#include "File.h"
+#include "Game.h" 
 
 int main(int argc, char* argv[]) {
 
