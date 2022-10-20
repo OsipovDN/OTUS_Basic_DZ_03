@@ -15,7 +15,7 @@ void game(const int& targ, int& att) {
 			att++;
 		}
 		else {
-			std::cout << "You win!!!"<<std::endl;
+			std::cout << "You win!!! Attempts = " << att << std::endl;
 			break;
 		}
 	} while (true);
