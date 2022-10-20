@@ -2,7 +2,6 @@
 #include <fstream>
 
 void game(const int& targ, int& att) {
-	//Игра
 	int cur_val = 0;
 	do {
 		std::cout << "Enter your guess: ";
@@ -23,7 +22,6 @@ void game(const int& targ, int& att) {
 }
 
 void app_to_file( const std::string& name, const int& val) {
-	//Запись результата в файл
 	std::ofstream file("Table_of_records.txt", std::ios_base::app);
 	if (!file.is_open()) {
 		std::cout << "File \" Table_of_records.txt \" is not open!" << std::endl;
@@ -34,14 +32,13 @@ void app_to_file( const std::string& name, const int& val) {
 }
 
 void print_file() {
-	//Вывод таблицы на экран
-	std::ifstream file("Table_of_records.txt", std::ios_base::app);
+	std::ifstream file("Table_of_records.txt", std::ios_base::in);
 	if (!file.is_open()) {
 		std::cout << "File \" Table_of_records.txt \" is not open!" << std::endl;
 		exit(1);
 	}
-	std::string username;
-	int att_val = 0;
+	std::string username, namecomp;
+	int att_val = 0,att_valcomp=0;
 	std::cout << "Table of records:" << std::endl;
 	while (true) {
 		file >> username;
@@ -51,7 +48,6 @@ void print_file() {
 			break;
 		}
 		std::cout << username << "\t" << att_val << std::endl;
-		
 	}
 	file.close();
 

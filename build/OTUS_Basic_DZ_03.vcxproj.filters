@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\C++\Kurs\OTUS\C++ Developer Basic\05_Модульность. Линковка\DZ_03\OTUS_Basic_DZ_03_v1\OTUS_Basic_DZ_03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\C++\Kurs\OTUS\C++ Developer Basic\05_Модульность. Линковка\DZ_03\OTUS_Basic_DZ_03_v1\foo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\C++\Kurs\OTUS\C++ Developer Basic\05_Модульность. Линковка\DZ_03\OTUS_Basic_DZ_03_v1\foo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\C++\Kurs\OTUS\C++ Developer Basic\05_Модульность. Линковка\DZ_03\OTUS_Basic_DZ_03_v1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A787F2BE-FA30-33F8-AA22-DB5E9EE8DBF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{871CB4C1-6D31-3751-9459-52B46EBD8A3D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
