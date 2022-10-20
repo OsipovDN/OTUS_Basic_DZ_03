@@ -1,4 +1,4 @@
-# Install script for directory: F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_v1
+# Install script for directory: F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_v1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

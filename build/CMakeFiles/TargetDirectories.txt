@@ -1,3 +1,3 @@
-F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_v1/build/CMakeFiles/OTUS_Basic_DZ_03.dir
-F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_v1/build/CMakeFiles/ALL_BUILD.dir
-F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_v1/build/CMakeFiles/ZERO_CHECK.dir
+F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_/build/CMakeFiles/OTUS_Basic_DZ_03.dir
+F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_/build/CMakeFiles/ALL_BUILD.dir
+F:/C++/Kurs/OTUS/C++ Developer Basic/05_Модульность. Линковка/DZ_03/OTUS_Basic_DZ_03_/build/CMakeFiles/ZERO_CHECK.dir
