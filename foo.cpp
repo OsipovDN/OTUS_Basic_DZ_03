@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include "foo.h"
 
 void game(const int& targ, int& att) {
 	int cur_val = 0;
