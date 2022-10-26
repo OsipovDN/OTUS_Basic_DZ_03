@@ -1,26 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include "foo.h"
-
-void game(const int& targ, int& att) {
-	int cur_val = 0;
-	do {
-		std::cout << "Enter your guess: ";
-		std::cin >> cur_val;
-		if (cur_val < targ) {
-			std::cout << "less than " << cur_val << std::endl;
-			att++;
-		}
-		else if (cur_val > targ) {
-			std::cout << "greater than " << cur_val << std::endl;
-			att++;
-		}
-		else {
-			std::cout << "You win!!! Attempts = "<<att<<std::endl;
-			break;
-		}
-	} while (true);
-}
+#include "File.h"
 
 void app_to_file( const std::string& name, const int& val) {
 	std::ofstream file("Table_of_records.txt", std::ios_base::app);
