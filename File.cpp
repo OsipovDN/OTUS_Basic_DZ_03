@@ -19,7 +19,7 @@ void print_file() {
 		exit(1);
 	}
 	std::string username, namecomp;
-	int att_val = 0,att_valcomp=0;
+	int att_val = 0;
 	std::cout << "Table of records:" << std::endl;
 	while (true) {
 		file >> username;

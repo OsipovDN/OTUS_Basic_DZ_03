@@ -9,8 +9,8 @@
 
 int main(int argc, char* argv[]) {
 
-	std::srand(std::time(nullptr));
-	int val =0, att = 0;
+	std::srand((unsigned int)std::time(nullptr));
+	int lvl = 0, val = 0, att = 0;
 	std::string name;
 
 	if (argc == 1) {
@@ -26,7 +26,8 @@ int main(int argc, char* argv[]) {
 				return -1;
 			}
 			// Определение зачения заданного числа в зависимости от уровня сложности
-			switch ((int)argv[2])
+			lvl = std::stoi(argv[2]);
+			switch (lvl)
 			{
 			case(1): {
 				val = 10;
